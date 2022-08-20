@@ -10,7 +10,7 @@ C++ implementation of AHT20 for RP2040 Picos
 5. Trigger a measurement with .triggerMeasurement()
 6. Read latest temperature (celsius) as float with .getTemp()
    1. temperature in farenheit can be read with .getTemp_f()
-7. read latest humidity as float with .getHumidity()
+7. Read latest humidity as float with .getHumidity()
 
 ## Example
  
