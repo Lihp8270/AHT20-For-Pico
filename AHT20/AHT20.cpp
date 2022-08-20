@@ -82,6 +82,10 @@ float AHT20::getTemp() {
     return tempReading;
 }
 
+float AHT20::getTemp_f() {
+    return (tempReading * 1.8) + 32;
+}
+
 float AHT20::getHumidity() {
     return humReading;
 }

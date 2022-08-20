@@ -15,6 +15,7 @@ public:
 
     void triggerMeasurement();
     float getTemp();
+    float getTemp_f();
     float getHumidity();
     void init(int sdaPort, int sclPort);
 };
